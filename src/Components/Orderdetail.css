@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ed-btn{
+    width: 100vh;
+    border-radius: 15px;
+    padding: 12px;
+}
+li{
+    width: 100vh;
+}
+.ed-btn:hover{
+    background-color: burlywood;
+}
+
+
+

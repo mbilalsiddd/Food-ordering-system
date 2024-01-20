@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", san-serif;
+}
+@media only screen and (min-width: 480px) {
+  
+    }
+    
+    @media only screen and (max-width: 480px) {
+   
+    }
+    @media only screen and (max-width: 480px) {
+      
+        .my-element {
+        display: none;
+        }
+        }
+        
+        @media only screen and (min-width: 480px) and (max-width: 1024px) {
+  
+        .my-element {
+        display: block;
+        }
+        }
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(./Components/img1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.wrapper{
+    width: 420px;
+    background: transparent;
+    color: #fff;
+    border-radius: 12px;
+    padding: 30px 40px;
+}
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+}
+.wrapper .input-box{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder{
+    color: #fff;
+}
+
+.wrapper .forgot p{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: -12px 0 12px;
+}
+
+.wrapper .forgot a{
+    color: #fff;
+    text-decoration: none;
+}
+.wrapper .forgot a:hover{
+    text-decoration: underline;
+}
+.wrapper .btn{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+.wrapper .btn:hover{
+    background-color: burlywood;
+    color: #fff;
+}
+
+.wrapper .register-link p{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+    margin: 10px 0 10px;
+}
+
+.wrapper .register-link a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+.wrapper .register-link a:hover{
+    text-decoration: underline;
+}
+
+.inp{
+    height: 50px;
+    width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
